@@ -1,0 +1,7 @@
+{
+  "appId": "com.jsonstudio.pro",
+  "productName": "JSON Studio Pro",
+  "win": {
+    "target": "nsis"
+  }
+}
