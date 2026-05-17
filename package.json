@@ -1,0 +1,35 @@
+{
+  "name": "json-studio-pro",
+  "private": true,
+  "version": "1.0.0",
+  "main": "electron/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "ag-grid-community": "^32.0.0",
+    "ag-grid-react": "^32.0.0",
+    "cytoscape": "^3.28.1",
+    "d3": "^7.9.0",
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3",
+    "framer-motion": "^11.2.10",
+    "monaco-editor": "^0.48.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-json-view": "^1.21.3",
+    "react-router-dom": "^6.23.1",
+    "reactflow": "^11.11.4",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  }
+}
